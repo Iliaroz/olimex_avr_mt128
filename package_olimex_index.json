@@ -1,0 +1,27 @@
+{
+  "packages": [
+    {
+      "name": "olimex",
+      "maintainer": "Olimex",
+      "websiteURL": "https://olimex.com",
+      "help": { "online": "https://olimex.com/forum/" },
+      "platforms": [
+        {
+          "name": "Olimex AVR Boards",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com",
+          "archiveFileName": "olimex-mt128-1.0.0.zip",
+          "checksum": "SHA-256:b721b1f0218fe34d6111e924bd6856a880e6604452c760032fcd29a9d4f47227",
+          "size": "1924",
+          "boards": [
+            { "name": "Olimex AVR-MT128" }
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
