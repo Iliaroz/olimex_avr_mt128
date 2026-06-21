@@ -13,12 +13,24 @@
           "category": "Contributed",
           "url": "https://github.com/Iliaroz/olimex_avr_mt128/raw/refs/heads/main/olimex-mt128-1.0.0.zip",
           "archiveFileName": "olimex-mt128-1.0.0.zip",
-          "checksum": "SHA-256:b721b1f0218fe34d6111e924bd6856a880e6604452c760032fcd29a9d4f47227",
+          "checksum": "SHA-256:f4aa18c9795cfaf847bd277a5d5a8700c4ce9aedf88375baa2b7c4d030c9caeb",
           "size": "1924",
           "boards": [
             { "name": "Olimex AVR-MT128" }
           ],
-          "toolsDependencies": []
+
+          "toolsDependencies": [
+            {
+              "packager": "MegaCore",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "MegaCore",
+              "name": "avrdude",
+              "version": "7.2-mega3"
+            }
+          ]
         }
       ],
       "tools": []

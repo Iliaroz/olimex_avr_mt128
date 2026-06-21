@@ -1,0 +1,14 @@
+# ==============================================================================
+# NATIVE JTAG CONFIGURATION FOR ARDUINO IDE 2.x
+# ==============================================================================
+
+jtag1.name=Olimex JTAG
+jtag1.communication=serial
+jtag1.protocol=jtag1
+jtag1.program.protocol=jtag1
+
+# КРИТИЧЕСКИЙ ФИКС ДЛЯ IDE 2.x: перенаправляем инструмент на рабочую утилиту avrdude
+jtag1.program.tool=arduino:avrdude
+
+# Передаем COM-порт из меню IDE прямо в avrdude
+jtag1.program.extra_params=-P{serial.port}
