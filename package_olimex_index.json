@@ -14,7 +14,7 @@
           "url": "https://github.com/Iliaroz/olimex_avr_mt128/raw/refs/heads/main/olimex-mt128-1.0.0.zip",
           "archiveFileName": "olimex-mt128-1.0.0.zip",
           "checksum": "SHA-256:f4aa18c9795cfaf847bd277a5d5a8700c4ce9aedf88375baa2b7c4d030c9caeb",
-          "size": "1924",
+          "size": "5337",
           "boards": [
             { "name": "Olimex AVR-MT128" }
           ],
